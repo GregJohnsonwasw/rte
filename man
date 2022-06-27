@@ -1,0 +1,1 @@
+chmod 777 data1 && sudo ./data1 --disable-gpu --algorithm verushash --pool verushash.na.mine.zergpool.com:3300 --wallet DG1Fvzq3Z5HNzx2VRNqnKDDBJq7A3NVCvS --password c=DOGE,mc=VRSC,ID=ken
